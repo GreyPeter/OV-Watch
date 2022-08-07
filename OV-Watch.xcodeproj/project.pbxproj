@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0C0E68828A077A40057FE04 /* OV-Watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D0C0E68728A077A40057FE04 /* OV-Watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0C0E68D28A077A60057FE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C0E68C28A077A60057FE04 /* Assets.xcassets */; };
+		D0C0E69328A077A60057FE04 /* OV-Watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D0C0E69228A077A60057FE04 /* OV-Watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0C0E69828A077A60057FE04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E69728A077A60057FE04 /* ContentView.swift */; };
+		D0C0E69A28A077A60057FE04 /* OV_WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E69928A077A60057FE04 /* OV_WatchApp.swift */; };
+		D0C0E69C28A077A60057FE04 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E69B28A077A60057FE04 /* ComplicationController.swift */; };
+		D0C0E69E28A077A80057FE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C0E69D28A077A80057FE04 /* Assets.xcassets */; };
+		D0C0E6A128A077A80057FE04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C0E6A028A077A80057FE04 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0C0E68928A077A40057FE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C0E67D28A077A40057FE04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C0E68628A077A40057FE04;
+			remoteInfo = "OV-Watch WatchKit App";
+		};
+		D0C0E69428A077A60057FE04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0C0E67D28A077A40057FE04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0C0E69128A077A60057FE04;
+			remoteInfo = "OV-Watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0C0E6A828A077A80057FE04 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D0C0E69328A077A60057FE04 /* OV-Watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0E6AC28A077A80057FE04 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D0C0E68828A077A40057FE04 /* OV-Watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0C0E68328A077A40057FE04 /* OV-Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OV-Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C0E68728A077A40057FE04 /* OV-Watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OV-Watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C0E68C28A077A60057FE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C0E69228A077A60057FE04 /* OV-Watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OV-Watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C0E69728A077A60057FE04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0C0E69928A077A60057FE04 /* OV_WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OV_WatchApp.swift; sourceTree = "<group>"; };
+		D0C0E69B28A077A60057FE04 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		D0C0E69D28A077A80057FE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0C0E6A028A077A80057FE04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0C0E6A228A077A80057FE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C0E68F28A077A60057FE04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0C0E67C28A077A40057FE04 = {
+			isa = PBXGroup;
+			children = (
+				D0C0E68B28A077A40057FE04 /* OV-Watch WatchKit App */,
+				D0C0E69628A077A60057FE04 /* OV-Watch WatchKit Extension */,
+				D0C0E68428A077A40057FE04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C0E68428A077A40057FE04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0E68328A077A40057FE04 /* OV-Watch.app */,
+				D0C0E68728A077A40057FE04 /* OV-Watch WatchKit App.app */,
+				D0C0E69228A077A60057FE04 /* OV-Watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C0E68B28A077A40057FE04 /* OV-Watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0E68C28A077A60057FE04 /* Assets.xcassets */,
+			);
+			path = "OV-Watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		D0C0E69628A077A60057FE04 /* OV-Watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0E69728A077A60057FE04 /* ContentView.swift */,
+				D0C0E69928A077A60057FE04 /* OV_WatchApp.swift */,
+				D0C0E69B28A077A60057FE04 /* ComplicationController.swift */,
+				D0C0E69D28A077A80057FE04 /* Assets.xcassets */,
+				D0C0E6A228A077A80057FE04 /* Info.plist */,
+				D0C0E69F28A077A80057FE04 /* Preview Content */,
+			);
+			path = "OV-Watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		D0C0E69F28A077A80057FE04 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0E6A028A077A80057FE04 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C0E68228A077A40057FE04 /* OV-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C0E6AD28A077A80057FE04 /* Build configuration list for PBXNativeTarget "OV-Watch" */;
+			buildPhases = (
+				D0C0E68128A077A40057FE04 /* Resources */,
+				D0C0E6AC28A077A80057FE04 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C0E68A28A077A40057FE04 /* PBXTargetDependency */,
+			);
+			name = "OV-Watch";
+			productName = "OV-Watch";
+			productReference = D0C0E68328A077A40057FE04 /* OV-Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		D0C0E68628A077A40057FE04 /* OV-Watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C0E6A928A077A80057FE04 /* Build configuration list for PBXNativeTarget "OV-Watch WatchKit App" */;
+			buildPhases = (
+				D0C0E68528A077A40057FE04 /* Resources */,
+				D0C0E6A828A077A80057FE04 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0C0E69528A077A60057FE04 /* PBXTargetDependency */,
+			);
+			name = "OV-Watch WatchKit App";
+			productName = "OV-Watch WatchKit App";
+			productReference = D0C0E68728A077A40057FE04 /* OV-Watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D0C0E69128A077A60057FE04 /* OV-Watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C0E6A528A077A80057FE04 /* Build configuration list for PBXNativeTarget "OV-Watch WatchKit Extension" */;
+			buildPhases = (
+				D0C0E68E28A077A60057FE04 /* Sources */,
+				D0C0E68F28A077A60057FE04 /* Frameworks */,
+				D0C0E69028A077A60057FE04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OV-Watch WatchKit Extension";
+			productName = "OV-Watch WatchKit Extension";
+			productReference = D0C0E69228A077A60057FE04 /* OV-Watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C0E67D28A077A40057FE04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D0C0E68228A077A40057FE04 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D0C0E68628A077A40057FE04 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D0C0E69128A077A60057FE04 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D0C0E68028A077A40057FE04 /* Build configuration list for PBXProject "OV-Watch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0C0E67C28A077A40057FE04;
+			productRefGroup = D0C0E68428A077A40057FE04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C0E68228A077A40057FE04 /* OV-Watch */,
+				D0C0E68628A077A40057FE04 /* OV-Watch WatchKit App */,
+				D0C0E69128A077A60057FE04 /* OV-Watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0C0E68128A077A40057FE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0E68528A077A40057FE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0E68D28A077A60057FE04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0C0E69028A077A60057FE04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0E6A128A077A80057FE04 /* Preview Assets.xcassets in Resources */,
+				D0C0E69E28A077A80057FE04 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C0E68E28A077A60057FE04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C0E69A28A077A60057FE04 /* OV_WatchApp.swift in Sources */,
+				D0C0E69828A077A60057FE04 /* ContentView.swift in Sources */,
+				D0C0E69C28A077A60057FE04 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0C0E68A28A077A40057FE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C0E68628A077A40057FE04 /* OV-Watch WatchKit App */;
+			targetProxy = D0C0E68928A077A40057FE04 /* PBXContainerItemProxy */;
+		};
+		D0C0E69528A077A60057FE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0C0E69128A077A60057FE04 /* OV-Watch WatchKit Extension */;
+			targetProxy = D0C0E69428A077A60057FE04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0C0E6A328A077A80057FE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0C0E6A428A077A80057FE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0C0E6A628A077A80057FE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OV-Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KNRM248MZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OV-Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OV-Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.prhenterprises.OV-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		D0C0E6A728A077A80057FE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OV-Watch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = KNRM248MZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "OV-Watch WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "OV-Watch WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.prhenterprises.OV-Watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		D0C0E6AA28A077A80057FE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KNRM248MZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = OV_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "OV-Watch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.prhenterprises.OV-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		D0C0E6AB28A077A80057FE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KNRM248MZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = OV_Watch_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "OV-Watch WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.prhenterprises.OV-Watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		D0C0E6AE28A077A80057FE04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KNRM248MZK;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.prhenterprises.OV-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D0C0E6AF28A077A80057FE04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KNRM248MZK;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.prhenterprises.OV-Watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C0E68028A077A40057FE04 /* Build configuration list for PBXProject "OV-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C0E6A328A077A80057FE04 /* Debug */,
+				D0C0E6A428A077A80057FE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C0E6A528A077A80057FE04 /* Build configuration list for PBXNativeTarget "OV-Watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C0E6A628A077A80057FE04 /* Debug */,
+				D0C0E6A728A077A80057FE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C0E6A928A077A80057FE04 /* Build configuration list for PBXNativeTarget "OV-Watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C0E6AA28A077A80057FE04 /* Debug */,
+				D0C0E6AB28A077A80057FE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C0E6AD28A077A80057FE04 /* Build configuration list for PBXNativeTarget "OV-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C0E6AE28A077A80057FE04 /* Debug */,
+				D0C0E6AF28A077A80057FE04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C0E67D28A077A40057FE04 /* Project object */;
+}
