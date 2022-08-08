@@ -15,6 +15,19 @@
 		D0C0E69C28A077A60057FE04 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E69B28A077A60057FE04 /* ComplicationController.swift */; };
 		D0C0E69E28A077A80057FE04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C0E69D28A077A80057FE04 /* Assets.xcassets */; };
 		D0C0E6A128A077A80057FE04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0C0E6A028A077A80057FE04 /* Preview Assets.xcassets */; };
+		D0C0E6B528A077E80057FE04 /* SubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6B128A077E80057FE04 /* SubView.swift */; };
+		D0C0E6B628A077E80057FE04 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6B228A077E80057FE04 /* Settings.swift */; };
+		D0C0E6B728A077E80057FE04 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6B328A077E80057FE04 /* ProgressBar.swift */; };
+		D0C0E6B828A077E80057FE04 /* Vehicles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6B428A077E80057FE04 /* Vehicles.swift */; };
+		D0C0E6C128A0781E0057FE04 /* ServerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6BA28A0781E0057FE04 /* ServerData.swift */; };
+		D0C0E6C228A0781E0057FE04 /* TokenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6BB28A0781E0057FE04 /* TokenData.swift */; };
+		D0C0E6C328A0781E0057FE04 /* ChargeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6BC28A0781E0057FE04 /* ChargeData.swift */; };
+		D0C0E6C428A0781E0057FE04 /* StatusData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6BD28A0781E0057FE04 /* StatusData.swift */; };
+		D0C0E6C528A0781E0057FE04 /* VehicleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6BE28A0781E0057FE04 /* VehicleData.swift */; };
+		D0C0E6C628A0781E0057FE04 /* WKDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6BF28A0781E0057FE04 /* WKDelegate.swift */; };
+		D0C0E6C728A0781E0057FE04 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6C028A0781E0057FE04 /* LocationData.swift */; };
+		D0C0E6CB28A078520057FE04 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6C928A078520057FE04 /* KeychainService.swift */; };
+		D0C0E6CC28A078520057FE04 /* TimeConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C0E6CA28A078520057FE04 /* TimeConvert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +83,19 @@
 		D0C0E69D28A077A80057FE04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0C0E6A028A077A80057FE04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0C0E6A228A077A80057FE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C0E6B128A077E80057FE04 /* SubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubView.swift; sourceTree = "<group>"; };
+		D0C0E6B228A077E80057FE04 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D0C0E6B328A077E80057FE04 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		D0C0E6B428A077E80057FE04 /* Vehicles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicles.swift; sourceTree = "<group>"; };
+		D0C0E6BA28A0781E0057FE04 /* ServerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerData.swift; sourceTree = "<group>"; };
+		D0C0E6BB28A0781E0057FE04 /* TokenData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenData.swift; sourceTree = "<group>"; };
+		D0C0E6BC28A0781E0057FE04 /* ChargeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeData.swift; sourceTree = "<group>"; };
+		D0C0E6BD28A0781E0057FE04 /* StatusData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusData.swift; sourceTree = "<group>"; };
+		D0C0E6BE28A0781E0057FE04 /* VehicleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VehicleData.swift; sourceTree = "<group>"; };
+		D0C0E6BF28A0781E0057FE04 /* WKDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDelegate.swift; sourceTree = "<group>"; };
+		D0C0E6C028A0781E0057FE04 /* LocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		D0C0E6C928A078520057FE04 /* KeychainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		D0C0E6CA28A078520057FE04 /* TimeConvert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeConvert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +139,10 @@
 		D0C0E69628A077A60057FE04 /* OV-Watch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				D0C0E69728A077A60057FE04 /* ContentView.swift */,
 				D0C0E69928A077A60057FE04 /* OV_WatchApp.swift */,
+				D0C0E6B028A077B90057FE04 /* Views */,
+				D0C0E6C828A078270057FE04 /* Helpers */,
+				D0C0E6B928A077F10057FE04 /* Models */,
 				D0C0E69B28A077A60057FE04 /* ComplicationController.swift */,
 				D0C0E69D28A077A80057FE04 /* Assets.xcassets */,
 				D0C0E6A228A077A80057FE04 /* Info.plist */,
@@ -129,6 +157,41 @@
 				D0C0E6A028A077A80057FE04 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0C0E6B028A077B90057FE04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0E69728A077A60057FE04 /* ContentView.swift */,
+				D0C0E6B328A077E80057FE04 /* ProgressBar.swift */,
+				D0C0E6B228A077E80057FE04 /* Settings.swift */,
+				D0C0E6B128A077E80057FE04 /* SubView.swift */,
+				D0C0E6B428A077E80057FE04 /* Vehicles.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0C0E6B928A077F10057FE04 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0E6BC28A0781E0057FE04 /* ChargeData.swift */,
+				D0C0E6C028A0781E0057FE04 /* LocationData.swift */,
+				D0C0E6BA28A0781E0057FE04 /* ServerData.swift */,
+				D0C0E6BD28A0781E0057FE04 /* StatusData.swift */,
+				D0C0E6BB28A0781E0057FE04 /* TokenData.swift */,
+				D0C0E6BE28A0781E0057FE04 /* VehicleData.swift */,
+				D0C0E6BF28A0781E0057FE04 /* WKDelegate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D0C0E6C828A078270057FE04 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D0C0E6C928A078520057FE04 /* KeychainService.swift */,
+				D0C0E6CA28A078520057FE04 /* TimeConvert.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +322,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0C0E69A28A077A60057FE04 /* OV_WatchApp.swift in Sources */,
+				D0C0E6B528A077E80057FE04 /* SubView.swift in Sources */,
+				D0C0E6C528A0781E0057FE04 /* VehicleData.swift in Sources */,
 				D0C0E69828A077A60057FE04 /* ContentView.swift in Sources */,
+				D0C0E6C728A0781E0057FE04 /* LocationData.swift in Sources */,
 				D0C0E69C28A077A60057FE04 /* ComplicationController.swift in Sources */,
+				D0C0E6C128A0781E0057FE04 /* ServerData.swift in Sources */,
+				D0C0E6B728A077E80057FE04 /* ProgressBar.swift in Sources */,
+				D0C0E6CB28A078520057FE04 /* KeychainService.swift in Sources */,
+				D0C0E6C428A0781E0057FE04 /* StatusData.swift in Sources */,
+				D0C0E6B828A077E80057FE04 /* Vehicles.swift in Sources */,
+				D0C0E6C228A0781E0057FE04 /* TokenData.swift in Sources */,
+				D0C0E6CC28A078520057FE04 /* TimeConvert.swift in Sources */,
+				D0C0E6B628A077E80057FE04 /* Settings.swift in Sources */,
+				D0C0E6C628A0781E0057FE04 /* WKDelegate.swift in Sources */,
+				D0C0E6C328A0781E0057FE04 /* ChargeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +496,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -452,7 +528,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -477,7 +553,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -502,7 +578,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
